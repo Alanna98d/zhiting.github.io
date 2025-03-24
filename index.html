@@ -12,6 +12,27 @@
     <h1>病從「口」入</h1>
     <h2>探討口腔健康與心血管疾病、糖尿病及鼻炎的關聯</h2>
 </header>
+<script>
+    window.addEventListener('resize', function() {
+        var h2 = document.querySelector('h2');  // 選擇 h2 元素
+        if (window.innerWidth <= 459) {  // 先判斷最小寬度
+            h2.textContent = "牙周病與常見疾病的關係"; // 螢幕寬度小於或等於 459px 時改變 h2 的內容
+        } else if (window.innerWidth <= 527) {
+            h2.textContent = "牙周病與糖尿病、心血管疾病及鼻炎的關聯"; // 當螢幕寬度小於或等於 527px 時，修改 h2 內容
+        } else {
+            h2.textContent = "探討牙周病與心血管疾病、糖尿病及鼻炎的關聯"; // 如果螢幕寬度大於 527px，恢復原來的內容
+        }
+    });
+
+    // 頁面載入時執行一次，避免第一次載入時沒有改變
+    if (window.innerWidth <= 459) {
+        document.querySelector('h2').textContent = "牙周病與常見疾病的關係";
+    } else if (window.innerWidth <= 527) {
+        document.querySelector('h2').textContent = "牙周病與糖尿病、心血管疾病及鼻炎的關聯";
+    } else {
+        document.querySelector('h2').textContent = "探討牙周病與心血管疾病、糖尿病及鼻炎的關聯";
+    }
+</script>
     <main>
         <section class="topic">
             <div>
