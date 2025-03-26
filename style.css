@@ -200,7 +200,7 @@ footer{
 @media only screen and (max-width: 585px) {
     .goals, .news, .teeth{
         height: 35vh;
-        margin: 4%;
+        margin: 3.5%;
     }
 }
 @media only screen and (max-width: 430px) {
