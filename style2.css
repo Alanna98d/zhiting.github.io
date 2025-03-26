@@ -89,7 +89,7 @@ p{
     text-align: left;
 }
 @media (max-width:894px) {
-    .dtot {
+    .dtot{
         display: flex;
         flex-direction: column;
         align-items: center;
@@ -97,7 +97,7 @@ p{
         width: 100%;
         height: auto;
     }
-    .dtot div {
+    .dtot div{
         width: 90% !important;
      }
     h1{
