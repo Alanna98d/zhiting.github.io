@@ -176,7 +176,7 @@ footer{
 @media only screen and (max-width: 630px) { 
     .topic{
        display: flex !important;
-       flex-direction: column;
+       flex-direction: column !important;
        align-items: center;
        justify-content:space-between;
        width: 90%;
