@@ -53,6 +53,7 @@ h1{
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    line-height: 2em;
 }
 h3{
     font-size: 20px;
@@ -76,9 +77,13 @@ p{
         width: 90%;
         height: auto;
     }
-    
+    .reminderc {
+        width: 90%;
+        height: auto;
+    }
     h1{
         position: static;
         text-align: center;
+        font-size: 28px;
      }
 }
