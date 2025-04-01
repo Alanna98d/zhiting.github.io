@@ -46,7 +46,7 @@ h1{
 }
 .reason{
     display:flex;
-    height:50vh;
+    height:65vh;
     background-color: #ffc6c3;
     padding: 40px;
     display:flex;
@@ -70,15 +70,16 @@ p{
     justify-content: center;
     line-height: 2em;
     text-align: left;
-    padding: 35px;
+    padding: 5%;
+    margin: 0%;
 }
 @media (max-width:894px) {
     .reason {
-        width: 90%;
+        width: 80%;
         height: auto;
     }
     .reminderc {
-        width: 90%;
+        width: 80%;
         height: auto;
     }
     h1{
