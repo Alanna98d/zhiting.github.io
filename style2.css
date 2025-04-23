@@ -103,23 +103,7 @@ p{
     padding-bottom: 5%;
 }
 
-@media (max-width:894px) {
-    .dtot {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content:space-between;
-        width: 100%;
-        height: auto;
-    }
-    .dtot div {
-        width: 90% !important;
-     }
-    h1{
-        position: static;
-        text-align: center;
-     }
-}
+
 @media only screen and (max-width: 640px) {
     main{
         padding: 3%;
