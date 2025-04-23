@@ -6,7 +6,7 @@ body{
     display:block;
 }
 header {
-    background-color: hsla(189, 90%, 46%, 0.95);
+    background-color: hsla(189, 68%, 61%, 0.853);
     height:80px;
     width:100%;
     position:relative;
@@ -17,23 +17,16 @@ header {
 }
 
 h1{
-    color:white;
+    color:beige;
     position:absolute;
     left: 20vh;
     top:0;
     line-height: 85px;
-    width: 210px;
+    width: 250px;
     background-position: center;
     background-repeat: no-repeat;
 }
-h2{
-    position:absolute;
-    left:650px;
-    top:25px;
-    background-position: center;
-    color:white;
-    background-repeat: no-repeat;
-}
+
 
 .news{
     background-color: white;
@@ -227,13 +220,7 @@ footer{
     }
 }
 @media only screen and (max-width: 1178px) { 
-    header {
-        display: flex;
-        flex-direction: column; /* 讓 h1 和 h2 垂直排列 */
-        align-items: center; /* 水平置中 */
-        justify-content: center; /* 垂直置中 */
-        height: 120px; /* 調整 header 高度，避免擠在一起 */
-    }
+    
 
     h1, h2 {
         position: static; /* 移除 absolute，讓它們回到正常的排版流 */
@@ -243,6 +230,13 @@ footer{
         margin: 5px 0; /* 增加間距，避免太擠 */
     }
 }
+
+
+
+
+
+
+
 
 
 
