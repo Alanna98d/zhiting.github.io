@@ -3,7 +3,7 @@
 margin:0;
 }
 header{
-    background-color: burlywood;
+    background-color: hsla(189, 68%, 61%, 0.853);
     height:80px;
     width:100%;
     position:relative;
@@ -13,7 +13,7 @@ header{
     background-repeat:no-repeat;
 }
 h1{
-    color:#662b01;
+    color:beige;
     position:absolute;
     left:145px;
     top:0;
@@ -21,23 +21,41 @@ h1{
     
     background-position: center;
     background-repeat: no-repeat;
-    
+   
+}
+main{
+    padding: 100px;
+    background-color: #f0f1e9 ;
+}
+.point h2{
+    font-family: 'Noto Serif TC', serif;
+    font-size: 33px;
+    color: #4A2C2A;
+  border-bottom: 3px solid #D4A373;
+  display: inline-block;
+  padding-bottom: 6px;
+  margin-bottom: 20px;
+  width: 100%; max-width: 685px
+}
+.twoways h2{
+    font-size: 26px;
 }
 .twoways{
-    background-color: #f6e1c7;
+   
     height:25vh;
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-    display:flex;
+    display: flex;
     flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    line-height: 2em;
+    justify-content:center;
+    text-align: left;
+    line-height: 2.4em;
+    padding-bottom: 5%;
 }
 .p{
     font-size: 18.5px;
-    line-height: 1.4em;
+    line-height: 2em;
     display:flex;
     flex-direction: column;
     align-items: center;
@@ -45,51 +63,45 @@ h1{
     text-align: center;
 }
 .dtot{
-    display:flex;
-    height:50vh;
-    background-color: #ede9db;
-    padding: 10px;
+    text-align: left;
+    height:60vh;
+    padding-bottom: 8%;
 }
 .one{
-    width: 50%;
-    background-color:#ede9db;
-    display:flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-
-
-}
-.two{
-    width: 50%;
-    background-color:#ede9db;
-    display:flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+    padding-bottom: 6%;
 }
 .dtot h4{
     text-align: left;
     font-size: 18px;
 }
+.one{
+    height: 40vh;
+}
+h2{
+    font-size: 28px;
+}
 h3{
-    font-size: 20px;
+    font-size: 23px;
+}
+h4{
+    font-size: 22px;
 }
 p{
     font-size: 16.5px;
+    color: rgba(0, 0, 0, 0.849);
+    line-height: 2em;
 }
 .reminder{
-    background-color: #f6e1c7;
+    
     height:30vh;
-    display:flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
+   
     line-height: 2em;
     text-align: left;
+    padding-bottom: 5%;
 }
+
 @media (max-width:894px) {
-    .dtot{
+    .dtot {
         display: flex;
         flex-direction: column;
         align-items: center;
@@ -97,7 +109,7 @@ p{
         width: 100%;
         height: auto;
     }
-    .dtot div{
+    .dtot div {
         width: 90% !important;
      }
     h1{
@@ -105,3 +117,4 @@ p{
         text-align: center;
      }
 }
+
