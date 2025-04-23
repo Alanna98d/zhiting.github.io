@@ -46,3 +46,8 @@ p{
 .b h2{
     font-size: 23px;
 }
+@media only screen and (max-width: 640px) {
+    main{
+        padding: 3%;
+    }
+}
