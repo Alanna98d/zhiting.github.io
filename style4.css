@@ -46,6 +46,18 @@ p{
 .b h2{
     font-size: 23px;
 }
+.reminder{
+    
+    height:30vh;
+    display:flex;
+    flex-direction: column;
+    
+    justify-content: center;
+    line-height: 2em;
+    text-align: left;
+    padding-top: 9%;
+    
+}
 @media only screen and (max-width: 640px) {
     main{
         padding: 3%;
